@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
+  title: string = "";
+  subTitle: string = "";
+  description: string = "";
 
   constructor() { }
 
