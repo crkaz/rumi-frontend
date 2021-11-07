@@ -2,13 +2,22 @@ import { NgModule, Optional, SkipSelf } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { EnsureModuleLoadedOnceGuard } from './guards/ensure-module-loaded-once.guard';
+import { HeaderComponent } from './components/header/header.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    HeaderComponent,
+    FooterComponent
+  ],
   imports: [
-    CommonModule
+    CommonModule,
+  ],
+  exports: [
+    HeaderComponent,
+    FooterComponent
   ]
 })
 export class CoreModule extends EnsureModuleLoadedOnceGuard {
@@ -18,3 +27,4 @@ export class CoreModule extends EnsureModuleLoadedOnceGuard {
     super(parentModule);
   }
 }
+ 

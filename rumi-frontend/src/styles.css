@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    display: table;
+}
+
+header {
+    padding: 0px 20px;
+    display: flex;
+    background-color: #292929;
+    color: white;
+}
+
+#main-body {
+    height: 100%;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
