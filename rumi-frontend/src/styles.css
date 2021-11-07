@@ -18,10 +18,16 @@ header {
 
 #main-body {
     height: 100%;
+    padding: 20px;
+    max-width: 9in;
 }
 
 footer {
     text-align: center;
     background-color: black;
     color: white;
+}
+
+.clickable {
+    cursor: pointer;
 }

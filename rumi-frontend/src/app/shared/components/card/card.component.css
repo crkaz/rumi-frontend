@@ -1,5 +1,12 @@
-.card-component {
+.card {
+    display: flex;
+    flex-direction: column;
     border-radius: 3px;
-    background-color: azure;
-    box-shadow: 1px;
+    background-color: #fafafa;
+    box-shadow:  1px 2px #ececec;
+}
+
+.card .card__content {
+    flex: 1 1 auto;
+    padding: 0px 20px;
 }
